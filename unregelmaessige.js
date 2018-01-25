@@ -25,7 +25,7 @@ $(document).ready(function() {
 
     // Mobile experience: when verb is spelled correctly then focus next input
     if (praesens)
-      $("#preateri").focus();
+      $("#praeteritum").focus();
     if (preateri)
       $("#perfekt").focus();
 
