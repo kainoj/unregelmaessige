@@ -53,7 +53,7 @@ $(document).ready(function() {
 function setVerb(verb) {
   $("#infinitiv").val(verb.infinitiv);
 
-  $("#ansinfi").html(verb.infinitiv);
+  //$("#ansinfi").html(verb.infinitiv);
   $("#anspres").html(verb.praesens);
   $("#anspret").html(verb.praeteritum);
   $("#ansperf").html(verb.perfekt);
