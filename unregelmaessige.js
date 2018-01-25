@@ -3,10 +3,11 @@ $(document).ready(function() {
   // Verbs in JSON
   Verben = getVerben();
 
-  // TODO(Przemek): Verbs permutation
+  // #verbs
+  v = Verben.length
 
-  // Iterate through all verbs
-  i = 0;
+  // Get random verb
+  i = rand(0, v);
   setVerb(Verben[i])
 
   // Check if currently typed word is correctly spelled
@@ -39,14 +40,9 @@ $(document).ready(function() {
       removeColor("#praesens, #praeteritum, #perfekt");
 
       // ...set a new verb
-      i++;
-      if (i < Verben.length)
-        setVerb(Verben[i]);
-      else {
-        // TODO(*) do sth with dat, it's lame
-        alert("OMG YOU ARE AWESOME")
-        location.reload();
-      }
+      i = rand(0, v);
+      setVerb(Verben[i]);
+
       // ...and set focus on "Präsens"
       $("#praesens").focus();
     }
@@ -71,4 +67,9 @@ function setCorrectColor(verb, isok = false) {
 // Removes background color of input if word is mistyped
 function removeColor(verb) {
   $(verb).css("background-color", "");
+}
+
+// Returns random number in [min, max)
+function rand(min, max) {
+  return min + Math.floor(Math.random()*100000000)%(max-min);
 }
