@@ -1,0 +1,19 @@
+body {
+  margin:0;
+  padding:0
+}
+
+#infinitiv, #praesens, #praeteritum, #perfekt {
+  padding: 1.5vh;
+  font-size: 5vh;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid green;
+  width: 90vw;
+}
+
+#praesens::placeholder, #praeteritum::placeholder, #perfekt::placeholder {
+  font-style: italic;
+  color: lightgray;
+}
