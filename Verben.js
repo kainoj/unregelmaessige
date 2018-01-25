@@ -18,7 +18,7 @@ function getVerben() {
     {"infinitiv":"kennen","praesens":"kennt","praeteritum":"kannte","perfekt":"hat gekannt"},
     {"infinitiv":"lesen","praesens":"liest","praeteritum":"las","perfekt":"hat gelesen"},
     {"infinitiv":"nahmen","praesens":"nimmt","praeteritum":"nahm","perfekt":"hat genommen"},
-    {"infinitiv":"nennen","praesens":"nennt","praeteritum":"nannte","perfekt":"genommen"},
+    {"infinitiv":"nennen","praesens":"nennt","praeteritum":"nannte","perfekt":"hat genannt"},
     {"infinitiv":"schlafen","praesens":"schläft","praeteritum":"schlief","perfekt":"hat geschlafen"},
     {"infinitiv":"sein","praesens":"ist","praeteritum":"war","perfekt":"ist gewesen"},
     {"infinitiv":"sitzen","praesens":"sitz","praeteritum":"saß","perfekt":"hat gesessen"},
