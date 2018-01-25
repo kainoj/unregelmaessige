@@ -4,13 +4,13 @@ body {
 }
 
 #infinitiv, #praesens, #praeteritum, #perfekt {
-  padding: 1.5vh;
-  font-size: 5vh;
+  padding: 1.9vh;
+  font-size: 7vh;
   border: 0;
   outline: 0;
   background: transparent;
   border-bottom: 1px solid green;
-  width: 90vw;
+  width: 100%;
 }
 
 #praesens::placeholder, #praeteritum::placeholder, #perfekt::placeholder {
