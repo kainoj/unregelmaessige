@@ -52,6 +52,11 @@ $(document).ready(function() {
 // Set "Infinitiv" field to given verb
 function setVerb(verb) {
   $("#infinitiv").val(verb.infinitiv);
+
+  $("#ansinfi").html(verb.infinitiv);
+  $("#anspres").html(verb.praesens);
+  $("#anspret").html(verb.praeteritum);
+  $("#ansperf").html(verb.perfekt);
 }
 
 // Sets background color of a typed verb

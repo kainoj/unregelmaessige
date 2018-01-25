@@ -18,3 +18,15 @@ html, body {
   font-style: italic;
   color: lightgray;
 }
+
+#answers {
+  font-style: italic;
+  color: lightgray;
+  font-size: 175%;
+  opacity: 0.0;
+  transition: opacity .25s ease-out;
+}
+
+#answers:hover {
+  opacity: 1.0;
+}
