@@ -3,9 +3,10 @@ body {
   padding:0
 }
 
+
 #infinitiv, #praesens, #praeteritum, #perfekt {
-  padding: 1.3vh;
-  font-size: 5.5vh;
+  padding: 4vw;
+  font-size: 10vw; /* Won't work in landscape mode */
   border: 0;
   outline: 0;
   background: transparent;
