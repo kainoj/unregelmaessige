@@ -76,5 +76,6 @@ function removeColor(verb) {
 
 // Returns random number in [min, max)
 function rand(min, max) {
-  return min + Math.floor(Math.random()*100000000)%(max-min);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+  // return min + Math.floor(Math.random()*100000000)%(max-min);
 }
