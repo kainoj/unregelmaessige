@@ -24,9 +24,9 @@ $(document).ready(function() {
     setCorrectColor("#perfekt", perfekt);
 
     // Mobile experience: when verb is spelled correctly then focus next input
-    if (praesens)
+    if (praesens && $("#praesens").is(":focus"))
       $("#praeteritum").focus();
-    if (preateri)
+    if (preateri && $("#praeteritum").is(":focus"))
       $("#perfekt").focus();
 
     // If verbs are correctly typed...

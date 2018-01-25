@@ -1,17 +1,17 @@
-body {
+html, body {
   margin:0;
-  padding:0
+  padding:0;
 }
 
 
 #infinitiv, #praesens, #praeteritum, #perfekt {
-  padding: 4vw;
-  font-size: 10vw; /* Won't work in landscape mode */
+  padding: 1.8%;
+  font-size: 300%; 
   border: 0;
   outline: 0;
   background: transparent;
   border-bottom: 1px solid green;
-  width: 95%;
+  width: 90%;
 }
 
 #praesens::placeholder, #praeteritum::placeholder, #perfekt::placeholder {
