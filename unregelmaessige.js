@@ -13,14 +13,20 @@ $(document).ready(function() {
   $("#praesens, #praeteritum, #perfekt").on("keyup", function() {
     // TODO(Przemek) But first... do sth with umlauts intput...
 
-    praesens = $("#praesens").val() == Verben[i].praesens
-    preateri = $("#praeteritum").val() == Verben[i].praeteritum
-    perfekt  = $("#perfekt").val() == Verben[i].perfekt
+    praesens = $("#praesens").val().toLowerCase() == Verben[i].praesens
+    preateri = $("#praeteritum").val().toLowerCase() == Verben[i].praeteritum
+    perfekt  = $("#perfekt").val().toLowerCase() == Verben[i].perfekt
 
     // Set input background color
     setCorrectColor("#praesens", praesens);
     setCorrectColor("#praeteritum", preateri);
     setCorrectColor("#perfekt", perfekt);
+
+    // Mobile experience: when verb is spelled correctly then focus next input
+    if (praesens)
+      $("#preateri").focus();
+    if (preateri)
+      $("#perfekt").focus();
 
     // If verbs are correctly typed...
     if (praesens && preateri && perfekt) {
