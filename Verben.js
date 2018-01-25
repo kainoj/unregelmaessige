@@ -1,6 +1,5 @@
 function getVerben() {
   return [
-    {"infinitiv":"sein","praesens":"ist","praeteritum":"war","perfekt":"ist gewesen"},
     {"infinitiv":"abschließen","praesens":"schließt ab","praeteritum":"schloss ab","perfekt":"hat abgeschlossen"},
     {"infinitiv":"anfangen","praesens":"fängt an","praeteritum":"fing an","perfekt":"hat angefangen"},
     {"infinitiv":"aufwachsen","praesens":"wächst auf","praeteritum":"wuchs auf","perfekt":"ist aufgewachsen"},
@@ -8,7 +7,7 @@ function getVerben() {
     {"infinitiv":"brennen","praesens":"brennt","praeteritum":"brante","perfekt":"hat gebrannt"},
     {"infinitiv":"bringen","praesens":"bringt","praeteritum":"brachte","perfekt":"hat gebracht"},
     {"infinitiv":"denken","praesens":"denkt","praeteritum":"dachte","perfekt":"hat gedacht"},
-    {"infinitiv":"erchalten","praesens":"erhält","praeteritum":"erhielt","perfekt":"hat erhalten"},
+    {"infinitiv":"erhalten","praesens":"erhält","praeteritum":"erhielt","perfekt":"hat erhalten"},
     {"infinitiv":"essen","praesens":"isst","praeteritum":"aß","perfekt":"hat gegessen"},
     {"infinitiv":"fahren","praesens":"fährt","praeteritum":"fuhr","perfekt":"ist gefahren"},
     {"infinitiv":"fernsehen","praesens":"sieht fern","praeteritum":"sah fern","perfekt":"hat ferngesehen"},
@@ -21,9 +20,10 @@ function getVerben() {
     {"infinitiv":"nahmen","praesens":"nimmt","praeteritum":"nahm","perfekt":"hat genommen"},
     {"infinitiv":"nennen","praesens":"nennt","praeteritum":"nannte","perfekt":"genommen"},
     {"infinitiv":"schlafen","praesens":"schläft","praeteritum":"schlief","perfekt":"hat geschlafen"},
+    {"infinitiv":"sein","praesens":"ist","praeteritum":"war","perfekt":"ist gewesen"},
     {"infinitiv":"sitzen","praesens":"sitz","praeteritum":"saß","perfekt":"hat gesessen"},
     {"infinitiv":"sprechen","praesens":"spricht","praeteritum":"sprach","perfekt":"hat gesprochen"},
-    {"infinitiv":"stattfinden","praesens":"findet statt","praeteritum":"fand statt","perfekt":"hat staattgefunden"},
+    {"infinitiv":"stattfinden","praesens":"findet statt","praeteritum":"fand statt","perfekt":"hat stattgefunden"},
     {"infinitiv":"aufstehen","praesens":"steht auf","praeteritum":"stand auf","perfekt":"ist aufgestanden"},
     {"infinitiv":"stehen","praesens":"steht","praeteritum":"stand","perfekt":"hat gestanden"},
     {"infinitiv":"teilnehmen","praesens":"nimmt teil","praeteritum":"nahm teil","perfekt":"hat teilgenommen"},
