@@ -14,9 +14,9 @@ $(document).ready(function() {
   $("#praesens, #praeteritum, #perfekt").on("keyup", function() {
     // TODO(Przemek) But first... do sth with umlauts intput...
 
-    praesens = $("#praesens").val().toLowerCase() == Verben[i].praesens
-    preateri = $("#praeteritum").val().toLowerCase() == Verben[i].praeteritum
-    perfekt  = $("#perfekt").val().toLowerCase() == Verben[i].perfekt
+    praesens = normalize($("#praesens").val()) == Verben[i].praesens
+    preateri = normalize($("#praeteritum").val()) == Verben[i].praeteritum
+    perfekt  = normalize($("#perfekt").val()) == Verben[i].perfekt
 
     // Set input background color
     setCorrectColor("#praesens", praesens);
@@ -53,7 +53,7 @@ $(document).ready(function() {
 function setVerb(verb) {
   $("#infinitiv").val(verb.infinitiv);
 
-  // $("#ansinfi").html(verb.infinitiv);
+  //$("#ansinfi").html(verb.infinitiv);
   $("#anspres").html(verb.praesens);
   $("#anspret").html(verb.praeteritum);
   $("#ansperf").html(verb.perfekt);
@@ -79,3 +79,15 @@ function rand(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
   // return min + Math.floor(Math.random()*100000000)%(max-min);
 }
+
+// Returns word without capital letters and with replaced umlaut characters
+function normalize(string) {
+  return string
+    .toLowerCase()
+	.replace("ae", "ä")
+	.replace("oe", "ö")
+	.replace("ue", "ü");
+//	.replace("ss", "ß") // "isst" vs. "aß" makes problem
+}
+
+
