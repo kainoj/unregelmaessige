@@ -28,8 +28,27 @@ function getVerben() {
     {"infinitiv":"stehen","praesens":"steht","praeteritum":"stand","perfekt":"hat gestanden"},
     {"infinitiv":"teilnehmen","praesens":"nimmt teil","praeteritum":"nahm teil","perfekt":"hat teilgenommen"},
     {"infinitiv":"treffen","praesens":"trifft","praeteritum":"traf","perfekt":"hat getroffen"},
-    {"infinitiv":"umziehen","praesens":"zieht um","praeteritum":"zog um","perfekt":"is umgezogen"},
-    {"infinitiv":"wissen","praesens":"weiß","praeteritum":"wusste","perfekt":"hat gewusst"}
+    {"infinitiv":"umziehen","praesens":"zieht um","praeteritum":"zog um","perfekt":"ist umgezogen"},
+    {"infinitiv":"wissen","praesens":"weiß","praeteritum":"wusste","perfekt":"hat gewusst"},
+    {"infinitiv":"anbieten","praesens":"bietet an","praeteritum":"bot an","perfekt":"hat angeboten"},
+    {"infinitiv":"anrufen","praesens":"ruft an","praeteritum":"rief an","perfekt":"hat angerufen"},
+    {"infinitiv":"bewerben","praesens":"bewirbt","praeteritum":"bewarb","perfekt":"hat beworben"},
+    {"infinitiv":"bleiben","praesens":"bleibt","praeteritum":"blieb","perfekt":"ist geblieben"},
+    {"infinitiv":"einladen","praesens":"lädt ein","praeteritum":"lud ein","perfekt":"hat eingeladen"},
+    {"infinitiv":"empfehlen","praesens":"empfiehlt","praeteritum":"empfahl","perfekt":"hat empfohlen"},
+    {"infinitiv":"empfinden","praesens":"empfindet","praeteritum":"empfand","perfekt":"empfunden"},
+    {"infinitiv":"gelten","praesens":"gilt","praeteritum":"galt","perfekt":"hat gegolten"},
+    {"infinitiv":"helfen","praesens":"hilft","praeteritum":"half","perfekt":"hat geholfen"},
+    {"infinitiv":"hinterlassen","praesens":"hinterlässt","praeteritum":"hinterließ","perfekt":"hat hinterlassen"},
+    {"infinitiv":"kommen","praesens":"kommt","praeteritum":"kam","perfekt":"ist gekommen"},
+    {"infinitiv":"leihen","praesens":"leiht","praeteritum":"lieh","perfekt":"hat geliehen"},
+    {"infinitiv":"meiden","praesens":"meidet","praeteritum":"mied","perfekt":"hat gemieden"},
+    {"infinitiv":"tragen","praesens":"trägt","praeteritum":"trug","perfekt":"hat getragen"},
+    {"infinitiv":"verbieten","praesens":"verbietet","praeteritum":"verbot","perfekt":"hat verboten"},
+    {"infinitiv":"verbinden","praesens":"verbindet","praeteritum":"verband","perfekt":"hat verbunden"},
+    {"infinitiv":"vertreten","praesens":"vertritt","praeteritum":"vertratt","perfekt":"hat vertreten"},
+    {"infinitiv":"verlieren","praesens":"verliert","praeteritum":"verlor","perfekt":"hat verloren"},
+    {"infinitiv":"werden","praesens":"wird","praeteritum":"wurde","perfekt":"geworden"}
   ]
 }
 
