@@ -48,7 +48,7 @@ function getVerben() {
     {"infinitiv":"verbinden","praesens":"verbindet","praeteritum":"verband","perfekt":"hat verbunden"},
     {"infinitiv":"vertreten","praesens":"vertritt","praeteritum":"vertratt","perfekt":"hat vertreten"},
     {"infinitiv":"verlieren","praesens":"verliert","praeteritum":"verlor","perfekt":"hat verloren"},
-    {"infinitiv":"werden","praesens":"wird","praeteritum":"wurde","perfekt":"geworden"}
+    {"infinitiv":"werden","praesens":"wird","praeteritum":"wurde","perfekt":"ist geworden"}
   ]
 }
 
