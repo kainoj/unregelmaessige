@@ -36,7 +36,7 @@ function getVerben() {
     {"infinitiv":"bleiben","praesens":"bleibt","praeteritum":"blieb","perfekt":"ist geblieben"},
     {"infinitiv":"einladen","praesens":"lädt ein","praeteritum":"lud ein","perfekt":"hat eingeladen"},
     {"infinitiv":"empfehlen","praesens":"empfiehlt","praeteritum":"empfahl","perfekt":"hat empfohlen"},
-    {"infinitiv":"empfinden","praesens":"empfindet","praeteritum":"empfand","perfekt":"empfunden"},
+    {"infinitiv":"empfinden","praesens":"empfindet","praeteritum":"empfand","perfekt":"hat empfunden"},
     {"infinitiv":"gelten","praesens":"gilt","praeteritum":"galt","perfekt":"hat gegolten"},
     {"infinitiv":"helfen","praesens":"hilft","praeteritum":"half","perfekt":"hat geholfen"},
     {"infinitiv":"hinterlassen","praesens":"hinterlässt","praeteritum":"hinterließ","perfekt":"hat hinterlassen"},
