@@ -14,7 +14,7 @@ $(document).ready(function() {
   $("#praesens, #praeteritum, #perfekt").on("keyup", function() {
 
     // Normalize input while typing
-    $(':focus').val(normalize($(':focus').val()))
+    // $(':focus').val(normalize($(':focus').val()))
 
     praesens = $("#praesens").val() == Verben[i].praesens
     preateri = $("#praeteritum").val() == Verben[i].praeteritum
