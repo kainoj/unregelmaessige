@@ -18,7 +18,7 @@ function getVerben() {
     {"infinitiv":"まつ","praesens":"まちます","praeteritum":"まって","perfekt":"まっています"},
     {"infinitiv":"あそぶ","praesens":"あそびます","praeteritum":"あそんで","perfekt":"あそんでいます"},
     {"infinitiv":"とぶ","praesens":"とぶます","praeteritum":"とんで","perfekt":"とんでいます"},
-    {"infinitiv":"よぶ","praesens":"よみます","praeteritum":"よんで","perfekt":"よんでいます"},
+    {"infinitiv":"よぶ","praesens":"よびます","praeteritum":"よんで","perfekt":"よんでいます"},
     {"infinitiv":"すむ","praesens":"すみます","praeteritum":"すんで","perfekt":"すんでいます"},
     {"infinitiv":"のむ","praesens":"のみます","praeteritum":"のんで","perfekt":"のんでいます"},
     {"infinitiv":"よむ","praesens":"よみます","praeteritum":"よんで","perfekt":"よんでいます"},
