@@ -3,7 +3,7 @@ function getVerben() {
     {"infinitiv":"あう","praesens":"あいます","praeteritum":"あって","perfekt":"あっています"},
     {"infinitiv":"いう","praesens":"いいます","praeteritum":"いって","perfekt":"いっています"},
     {"infinitiv":"かう","praesens":"かいます","praeteritum":"かって","perfekt":"かっています"},
-    {"infinitiv":"つかう","praesens":"つかいます","praeteritum":"つかって","perfekt":"つかいっています"},
+    {"infinitiv":"つかう","praesens":"つかいます","praeteritum":"つかって","perfekt":"つかっています"},
     {"infinitiv":"いく","praesens":"いきます","praeteritum":"いって","perfekt":"いっています"},
     {"infinitiv":"かく","praesens":"かきます","praeteritum":"かいて","perfekt":"かいています"},
     {"infinitiv":"きく","praesens":"ききます","praeteritum":"きいて","perfekt":"きいています"},
@@ -29,7 +29,7 @@ function getVerben() {
     {"infinitiv":"かいものする","praesens":"かいものします","praeteritum":"かいものして","perfekt":"かいものしています"},
     {"infinitiv":"かえる","praesens":"かえります","praeteritum":"かえって","perfekt":"かえっています"},
     {"infinitiv":"くる","praesens":"きます","praeteritum":"きて","perfekt":"きています"},
-    {"infinitiv":"しまる","praesens":"しまります","praeteritum":"しまって","perfekt":"しまりしています"},
+    {"infinitiv":"しまる","praesens":"しまります","praeteritum":"しまって","perfekt":"しまっています"},
     {"infinitiv":"する","praesens":"します","praeteritum":"して","perfekt":"しています"},
     {"infinitiv":"たべる","praesens":"たべます","praeteritum":"たべて","perfekt":"たべています"},
     {"infinitiv":"つくる","praesens":"つくります","praeteritum":"つくって","perfekt":"つくっています"},
@@ -41,7 +41,7 @@ function getVerben() {
     {"infinitiv":"はしる","praesens":"はしります","praeteritum":"はしって","perfekt":"はしっています"},
     {"infinitiv":"べんきょうする","praesens":"べんきょうします","praeteritum":"べんきょうして","perfekt":"べんきょうしています"},
     {"infinitiv":"みる","praesens":"みます","praeteritum":"みて","perfekt":"みています"},
-    {"infinitiv":"りょこうする","praesens":"りょこうします","praeteritum":"りょこうして","perfekt":"りょうこうしています"},
+    {"infinitiv":"りょこうする","praesens":"りょこうします","praeteritum":"りょこうして","perfekt":"りょこうしています"},
     {"infinitiv":"りょうりする","praesens":"りょうりします","praeteritum":"りょうりして","perfekt":"りょうりしています"},
     {"infinitiv":"わかる","praesens":"わかります","praeteritum":"わかって","perfekt":"わかっています"}
   ]
