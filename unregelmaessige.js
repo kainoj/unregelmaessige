@@ -10,6 +10,13 @@ $(document).ready(function() {
   i = rand(0, v);
   setVerb(Verben[i])
 
+  // Show meaning on hover
+  $('#infnest').hover(function() {
+    $('#infinitiv').val(Verben[i].meaning);
+  },function() {
+    $('#infinitiv').val(Verben[i].infinitiv);
+  });
+
   // Check if currently typed word is correctly spelled
   $("#praesens, #praeteritum, #perfekt").on("keyup", function() {
 
